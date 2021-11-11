@@ -3,7 +3,7 @@ import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
 import Contents from "../layouts/Contents";
 import WrapTitle from "../layouts/WrapTitle";
-import ContInfo from "../layouts/ContInfo";
+import ContInfo from "../info/ContInfo";
 
 function AboutText({title, desc, image}){
     return (

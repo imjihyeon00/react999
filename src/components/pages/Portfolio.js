@@ -3,7 +3,7 @@ import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
 import Contents from "../layouts/Contents";
 import WrapTitle from "../layouts/WrapTitle";
-import ContInfo from "../layouts/ContInfo";
+import ContInfo from "../info/ContInfo";
 import axios from "axios";
 import PortInfo from "../info/PortInfo";
 import Loading from '../layouts/Loading';
