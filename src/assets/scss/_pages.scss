@@ -103,11 +103,25 @@
         margin-top: 1.2rem;
         
         h3 {
-            padding-bottom: 10px;
+            padding: 6px 12px;
+            margin-right: 10px;
+            margin-bottom: 15px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        h3.active {
+            // border-bottom: 2px solid #fff;
+            background-color: #fff;
+            color: #000;
         }
         
         ul {
+            display: none;
             border-top: 1px solid #fff;
+
+            &.show{
+                display: block;
+            }
         }
         li {
             margin: 0;
@@ -126,7 +140,8 @@
                 float: left;
                 padding: 25px 10px;
                 font-size: 14px;
-                font-family: "S-CoreDream-3Light";
+                font-family: "S-CoreDream";
+                font-weight: 300;
                 box-sizing: border-box;
                 
                 &:nth-child(1) {
@@ -198,7 +213,8 @@
         border: 1px solid #dad8d1;
         text-align: center;
         display: block;
-        font-family: "S-CoreDream-3Light";
+        font-family: "S-CoreDream";
+        font-weight: 300;
         padding: 20px;
         transition: all .3s;
     
@@ -266,7 +282,8 @@
             flex: 0 0 19%;
     
             .title {
-                font-family: "S-CoreDream-3Light";
+                font-family: "S-CoreDream";
+                font-weight: 300;
                 overflow: hidden;
                 text-overflow: ellipsis;
                 display: -webkit-box;
@@ -287,7 +304,8 @@
             background: transparent;
             border: none;
             border-bottom: 1px solid #fff;
-            font-family: "S-CoreDream-3Light";
+            font-family: "S-CoreDream";
+            font-weight: 300;
             padding: 15px 10px;
             outline:#fff;
             color: #fff;
@@ -298,7 +316,8 @@
         }
         button {
             flex: 0 0 20%;
-            font-family: "S-CoreDream-3Light";
+            font-family: "S-CoreDream";
+            font-weight: 300;
             background-color: #fff;
             border: 1px solid #fff;
         }
