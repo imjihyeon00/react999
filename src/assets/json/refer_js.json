@@ -105,7 +105,7 @@
                 "definition": [
                     "Math.pow(base, exponent)"
                 ]
-            },[{
+            },{
                 "id": 11,
                 "link": "https://webzz.tistory.com/647",
                 "title": "constructor()",
@@ -208,7 +208,7 @@
                 "definition": [
                     "str.indexOf(searchValue[, fromIndex])"
                 ]
-            }]
+            }
         ]
     }
 }
