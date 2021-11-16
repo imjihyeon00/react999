@@ -147,7 +147,7 @@
             "id": 8,
             "link": "https://webzz.tistory.com/236",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-            "title": "<article>",
+            "title": "<aside>",
             "desc1": "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다. 웹 페이지의 메인 콘텐츠와 관련된 사이드의 정보, 광고 등 부분적인 정보를 나타낼 때 사용합니다.",
             "desc2": "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
             "element": "블록 요소(Block Element)",
