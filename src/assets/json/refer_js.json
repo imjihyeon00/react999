@@ -1,7 +1,7 @@
 {
     "data": {
-        "type": "jsRefer",
-        "htmlRefer": [{
+        "type": "javascript",
+        "jsRefer": [{
                 "id": 1,
                 "link": "https://webzz.tistory.com/79",
                 "title": "Math.abs(x)",
