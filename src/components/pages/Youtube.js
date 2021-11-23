@@ -42,7 +42,7 @@ function Youtube(){
             redirect: 'follow'
         };
         
-        fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=${process.env.REACT_APP_YOUTUBE_API_KEY}&maxResults=30&type=video`, requestOptions)
+        fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=${process.env.REACT_APP_YOUTUBE_KEY}&maxResults=30&type=video`, requestOptions)
         .then(response => response.json())
         .then(result => setVideos(result.items))
         .catch(error => console.log('error', error));
@@ -55,7 +55,7 @@ function Youtube(){
         };
 
         
-        fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=bts&key=${process.env.REACT_APP_YOUTUBE_API_KEY}&maxResults=30&type=video`, requestOptions)
+        fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=bts&key=${process.env.REACT_APP_YOUTUBE_KEY}&maxResults=30&type=video`, requestOptions)
         .then(response => response.json())
         // .then(result => console.log(result.items))
         .then(result => {
