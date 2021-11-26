@@ -24,7 +24,7 @@ class Portfolio extends React.Component {
             data: {
                 data: {ports}
             }
-        } = await axios.get("https://webstoryboy.github.io/react5001/src/assets/json/portfolio.json");
+        } = await axios.get("https://imjihyeon00.github.io/react999/src/assets/json/portfolio.json");
         //console.log(ports.data.data.ports);
         this.setState({ports, isLoading:false});
     }
